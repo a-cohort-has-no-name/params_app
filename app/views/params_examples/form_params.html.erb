@@ -1,0 +1,9 @@
+<h1>Form:</h1>
+
+<%= form_tag "/form_result", method: :post do %>
+<!-- 	Enter a message: <%= text_field_tag :form_message %>
+ -->	<div>
+		Enter a message: <input type="text" name="form_message">
+	</div>
+	<input type="submit" value="Submit!">
+<% end %>
