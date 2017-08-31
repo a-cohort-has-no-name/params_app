@@ -28,4 +28,33 @@ class ParamsExamplesController < ApplicationController
 		end
 		render "guess_game.html.erb"
 	end
+
+	def url_segment_params_method
+		@value = params[:wildcard]
+		render "url_segment_params.html.erb"
+	end
+
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
